@@ -113,8 +113,8 @@ Create an account at [github.com](https://github.com/) using your afacademy.af.e
 You will complete and submit all assignments as follows
 
 - complete assignment, save, commit changes to your local repository
-- push changes to github
-- request review using a pull request on github.com
+- push changes to origin/remote repository/github
+- On github.com (not in tortoisegit) request a review using a pull request
   - click on *pull requests* -> *new*
   - **base**: feedback; **compare**: main
   - *create pull request*
@@ -126,4 +126,4 @@ You will complete and submit all assignments as follows
   - **NOTE**: don’t click “merge pull request” or “close pull request”—your instructor will do that
 - If you need to make changes I will respond with comments in the pull request
 - When you complete the assignment, I will approve the pull request and merge your changes into the `feedback` branch
-- **NOTE**: you don’t ever edit the `feedback` branch directly
+- **NOTE**: don’t edit the `feedback` branch directly

@@ -15,6 +15,8 @@ In this exercise you will document and validate the two functions that you wrote
 - `mag.m`
 - `vecangle.m`
 
+Follow the USAFA/DFAS documentation standards illustrated in the file `example_add.m` in this directory.  
+
 ### mag.m
 
 `mag.m` will determine magnitude of a three-dimensional input vector. You will use this function extensively over your tenure as an engineering major.
@@ -39,10 +41,6 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
    - output:  vector magnitude
 
-
-
-
-
 2) **`vecangle.m`** Write an m-file function that will find the angle between two input vectors.
    - inputs
      - Vector 1
@@ -60,6 +58,9 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
   - [ ] `vecangle.m`
 
 - [ ] test case results for both functions
+  - [ ] create results table in `readme.md`
+  - [ ] include test script
+
 - [ ] hand calculations for test cases (image in repository and insert in this file)
 
 
@@ -70,7 +71,7 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 | input     | output |
 | --------- | ------ |
-| [0, 0, 1] |        |
+| […, …, …] |        |
 |           |        |
 |           |        |
 
@@ -78,11 +79,11 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 ### vecangle.m
 
-| input     | output |
-| --------- | ------ |
-| [0, 0, 1] |        |
-|           |        |
-|           |        |
+| input                 | output |
+| --------------------- | ------ |
+| […, …, …] & […, …, …] |        |
+|                       |        |
+|                       |        |
 
 
 

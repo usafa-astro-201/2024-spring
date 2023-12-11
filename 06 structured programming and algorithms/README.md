@@ -1,4 +1,4 @@
-# A201 Exercise—Algorithm Exercise
+# A201 Exercise—algorithm 
 
 
 
@@ -26,7 +26,7 @@ Import 2-dimensional vectors (units of km), one at a time, from a file (you don�
 
 Write an algorithm set to accomplish the above tasks. Be sure you start with the main steps and then fill in the details down to the equation level.
 
-**Use the “Sample Algorithm.docx” file as a template to start.**
+**Use the “example algorithm” section of this file as a template to start.**
 
 
 
@@ -37,13 +37,13 @@ Write an algorithm set to accomplish the above tasks. Be sure you start with the
 
 
 
-## algorithm (examples—replace with yours)
+## example algorithm 
 
 
 
-### compute_properties
+### compute_properties algorithm
 
-Given a file with sets of input values (see below) that computes corresponding output values (see below) to be printed to the screen.
+Given a file with sets of input values (see below), compute corresponding output values (see below) to be printed to the screen.
 
  
 
@@ -56,7 +56,7 @@ File containing sets of:
 
  #### outputs 
 
-For Each set of data print to the screen:
+For each set of data print to the screen:
 
 - ​    a        - semi-major axis (km)
 - ​    e        - eccentricity
@@ -72,10 +72,10 @@ Loop until no more data in the file
 - Read Data
   - Scan in values Altperigee, Altapogee
 - Use aecalc to get the requested parameters
-  - a,e]=aecalc(Altperigee, Altapogee)
+  - [a,e]=aecalc(Altperigee, Altapogee)
 - Print the data to the screen
-  - Print ‘Altitudes of perigee and apogee are:’, Altperigee, Altapogee
-  - Print ‘ a, e are:’, a,e
+  - Print “Altitudes of perigee and apogee are:”, Altperigee, Altapogee
+  - Print “a, e are:“, a,e
 
 End Loop
 
@@ -85,7 +85,7 @@ End of compute_properties
 
 
 
-### aecalc
+### aecalc algorithm
 
 Compute the size and shape of an orbit given the perigee and apogee altitudes. 
 
