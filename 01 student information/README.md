@@ -34,6 +34,18 @@ After you have completed the necessary changes:
 - type a message -> **commit**
 - **push** to remote repository
 
+After you have pushed, request review via a **pull request** on github.com
+
+- go to your personal repository
+- click on pull requests
+- select `feedback` pull request
+- add your instructor as a reviewer
+  ![](../sources/reviewer.png)
+- add a comment like “01 student information ready for review”
+- click comment 
+
+**Note: Don’t click “merge pull request” or “close pull request.” Your instructor will close the pull request when you have successfully completed all assignments for Astro 201. **
+
 
 
 ## student information
@@ -60,10 +72,10 @@ Erase this section and all previous sections. Complete file with your own inform
 
 **hometown**: 
 
-**interests**:
+**interests**: raising 4 kids; astro!
 
-**favorite book**: 
+**favorite book**: Honor Harrington series
 
-**favorite movie**: 
+**favorite movie**: Top Gun Maverick
 
-**military goals**:
+**military goals**: teach you Astro 201!

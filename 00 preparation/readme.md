@@ -115,7 +115,15 @@ You will complete and submit all assignments as follows
 - complete assignment, save, commit changes to your local repository
 - push changes to github
 - request review using a pull request on github.com
-  - click on pull requests -> feedback
-  - **NOTE**: don’t click “merge pull request” or “close pull request”
+  - click on *pull requests* -> *new*
+  - **base**: feedback; **compare**: main
+  - *create pull request*
+  - **title**: add number and title of assignment (e.g. “06 structured programming”)
+  - **description**: “ready for review”
+  - add your instructor as a reviewer
+    ![](../sources/reviewer.png)
+  - click *create pull request* (again)
+  - **NOTE**: don’t click “merge pull request” or “close pull request”—your instructor will do that
 - If you need to make changes I will respond with comments in the pull request
-- When you complete the assignment, I will reply to the feedback pull request with a comment 
+- When you complete the assignment, I will approve the pull request and merge your changes into the `feedback` branch
+- **NOTE**: you don’t ever edit the `feedback` branch directly
