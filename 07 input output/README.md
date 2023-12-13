@@ -27,9 +27,11 @@ In this exercise you will write two m-files: one to import the data into Matlab�
 
 - [ ] `writevec.m`
   - [ ] documented code
-  - [ ] test case results from`writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')`
+  - [ ] test case results from `writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')`
     Where `posvec` is from `getposvel` test. You must use appropriately sized `%x.yf` formats for the numbers
     (put expected and actual values in a comparison table)
+- [ ] test script
+- [ ] output file
 
 
 
@@ -43,14 +45,18 @@ In this exercise you will write two m-files: one to import the data into Matlab�
 |          |        |
 |          |        |
 |          |        |
+|          |        |
+|          |        |
+|          |        |
 
 ### writevec.m
 
-| expected | actual |
-| -------- | ------ |
-|          |        |
-|          |        |
-|          |        |
+expected: 
+`position vector 
+-2693.3244i 6428.3838j 4491.3425k`
+
+actual: 
+`your results here`
 
 
 
@@ -66,21 +72,19 @@ This function will:
 
 - import the last 3 numbers into a column vector (3x1) 
 
- 
+ #### test syntax
+
+`[posvec,velvec]=getposvel('vector.dat')`
 
 #### inputs
 
 - filename – the name of the file with the input data
-
- 
 
 #### outputs
 
 - vec1 – position vector (km)
 
 - vec2 – velocity vector (km/s)
-
- 
 
 #### process
 
@@ -106,7 +110,9 @@ This function will:
 
 - on the second line of the output file print each vector component with a label of the user’s choice  (depends on coordinate frame – e.g.  x,y,z or i,j,k, etc.)
 
+#### test syntax
 
+`writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')` 
 
 #### inputs
 
@@ -122,13 +128,9 @@ This function will:
 
 - comp3            - component 3 label
 
-
-
 #### outputs
 
 - No returned values but it does create an output file
-
-
 
 #### process
 
