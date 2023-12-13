@@ -8,6 +8,10 @@
 
 
 
+For your submission, change this section to _documentation_. 
+
+
+
 ## background
 
 We have discussed some of Matlab’s math functions and operations. In this exercise you will write two short m-files (each can be completed with 4 lines of code or less):
