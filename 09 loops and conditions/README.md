@@ -1,10 +1,10 @@
-# A201 Exercise—Conditional Exercise
+# A201 Exercise—conditionals
 
 
 
 ## authorized resources
 
- your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
+your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
 
 
@@ -18,7 +18,7 @@ In this exercise you will practice these by writing two short m-files that do th
 
 - `revcheck.m`
 
- In some cases, you may end up with an angle that is greater than 360 degrees or 2pi radians or an angle that is less than zero. We will need to express these angles as their equivalents in the range 0-360° or 0-2pi radians.
+In some cases, you may end up with an angle that is greater than 360 degrees or 2pi radians or an angle that is less than zero. We will need to express these angles as their equivalents in the range 0-360° or 0-2pi radians.
 
 For example:
 
@@ -53,6 +53,7 @@ Convert the `revcheck.m` and `revchecklong.m` algorithms below into Matlab code 
   - [ ] documented code
   - [ ] test case results 
   - [ ] hand calculations (be sure to test all paths through code)
+- [ ] test script
 
 
 
@@ -61,19 +62,19 @@ Convert the `revcheck.m` and `revchecklong.m` algorithms below into Matlab code 
 
 ### revchecklong.m
 
-| expected | actual |
-| -------- | ------ |
-|          |        |
-|          |        |
-|          |        |
+| input | expected | actual |
+| ----- | -------- | ------ |
+|       |          |        |
+|       |          |        |
+|       |          |        |
 
 ### revcheck.m
 
-| expected | actual |
-| -------- | ------ |
-|          |        |
-|          |        |
-|          |        |
+| input | expected | actual |
+| ----- | -------- | ------ |
+|       |          |        |
+|       |          |        |
+|       |          |        |
 
 
 
@@ -98,8 +99,8 @@ An intuitive way to adjust angles to be in the range 0 to modby. It can take a l
 - anglein      - input angle (rad or deg)
 
 - modby      - maximum angle allowed (2*pi or 360)
+  **Note**: modby = 2*pi if anglein is in radians, modby = 360 if anglein is in degrees
 
-- modby = 2*pi if anglein is in radians, modby = 360 if anglein is in degrees
 
  #### outputs 
 
@@ -148,8 +149,8 @@ A fast way to adjust angles to be in the range 0 to modby.
 - anglein      - input angle (rad or deg)
 
 - modby      - maximum angle allowed (2*pi or 360)
+  **Note**: modby = 2*pi if anglein is in radians, modby = 360 if anglein is in degrees
 
-- modby = 2*pi if anglein is in radians, modby = 360 if anglein is in degrees
 
  #### outputs 
 
