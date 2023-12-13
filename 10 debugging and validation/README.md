@@ -1,4 +1,4 @@
-# A201 Exercise—Conditional Exercise
+# A201 Exercise—debugging 
 
 
 
@@ -17,20 +17,21 @@ In this exercise, you will be given a Matlab function that has errors in it.
 The function you’ll start with is called `badintro.m` (found in this lesson’s folder.) For a set of five initial velocities and angles of projectiles, it is supposed to calculate: 
 
 1. flight time 
-2. maximum height reached
-3. maximum horizontal distance traveled. 
 
 $$
 T_{flight} = \frac{2 V_{vert}}{a}
 $$
 
+2. maximum height reached
+$$
+alt_{max} = \frac{{V_{vert}}^2}{2a}
+$$
+
+3. maximum horizontal distance traveled 
 $$
 D = V_{horiz} T_{flight}
 $$
 
-$$
-alt_{max} = \frac{{V_{vert}}^2}{2a}
-$$
 
 $T_{flight}$ is time of flight 
 $V_{horiz}$ is horizontal velocity
@@ -52,7 +53,7 @@ You may use any method to calculate test cases.
 
 ## submittal
 
-- [ ] documented code
+- [ ] fixed `badintro.m` code
 - [ ] test case results for the five cases
 - [ ] hand calculations for one of the cases (for validation)
 
@@ -61,13 +62,18 @@ You may use any method to calculate test cases.
 
 ## test case results
 
-| $v_0$ | $\theta_0$ | flight time | distance | max altitude |
-| ----- | ---------- | ----------- | -------- | ------------ |
-|       |            |             |          |              |
-|       |            |             |          |              |
-|       |            |             |          |              |
-|       |            |             |          |              |
-|       |            |             |          |              |
+|          | $v_0$ | $\theta_0$ | flight time | distance | max altitude |
+| -------- | ----- | ---------- | ----------- | -------- | ------------ |
+| expected |       |            |             |          |              |
+| actual   |       |            |             |          |              |
+| expected |       |            |             |          |              |
+| actual   |       |            |             |          |              |
+| expected |       |            |             |          |              |
+| actual   |       |            |             |          |              |
+| expected |       |            |             |          |              |
+| actual   |       |            |             |          |              |
+| expected |       |            |             |          |              |
+| actual   |       |            |             |          |              |
 
 
 
