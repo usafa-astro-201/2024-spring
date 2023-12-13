@@ -11,7 +11,7 @@ All of the following are required in order to receive credit for completion. You
 - [ ] algorithms: 1 for the main script; 1 for each sub-function
   Could someone duplicate your program from this?
 - [ ] clear, concise, documented m-file code
-- [ ] correct answers for provided test cases in RV1.dat
+- [ ] correct answers for provided test cases in `RV1.dat`
   - [ ] Create a table of expected vs actual
   - [ ] supporting hand calculations 
   - [ ] include the output file in your repository
@@ -70,21 +70,36 @@ Plus other items listed later in the output format.
 
 
 
-## organization
+## code organization
 
-Your program should be modular in construction. A suggested organization is depicted in the following outline. Bold items are required.
+Your program should be modular in construction. A suggested organization is depicted below. Red items are required.
 
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'stepAfter' } } }%%
 
+graph TD;
 
-- **RV_to_COE**
-  - **wgs84data**
-  - input function
-  - **ElOrb**
-    - hnevec
-    - sizeshape
-    - ****angles****
-  - OrbParams
-  - output function
+    RV_to_COE---junction1[ ]
+    style junction1 height:0px;
+	
+    junction1---wgs84data; 
+    junction1---id1[input function];
+    junction1---ElOrb
+    junction1---OrbParams;
+    junction1---id2[output function];
+    
+    ElOrb---junction2[ ]
+    style junction2 height:0px;
+    
+    junction2---hnevec; 
+    junction2---sizeshape;
+    junction2---angles;
+        
+%% Defining the styles
+    classDef Red fill:#FF9999;
+%% Assigning styles to nodes
+    class wgs84data,RV_to_COE,ElOrb Red;
+```
 
 
 
@@ -113,8 +128,8 @@ Your program must create a file and generate the following format. (Case 2 will 
 ```
 ***************** Case    1 *****************
 
-R (km)    =  8840.0000 I     646.0000 J    5455.0000 K    Mag=  10407.6866
-V (km/s)  =    -0.6950 I       5.2500 J      -1.6500 K    Mag=      5.5469
+R (km)    =  8840.0000 I     646.0000 J    5455.0000 K    Mag =  10407.6866
+V (km/s)  =    -0.6950 I       5.2500 J      -1.6500 K    Mag =      5.5469
 
 Radius of Perigee (km) =   6260.5311
 Radius of Apogee  (km) =  11134.4744
@@ -295,7 +310,7 @@ This procedure determines all angular orbital elements. ***Be sure to perform qu
 
  ##### output
 
-- *incl** -- inclination                      scalar in radians
+- **incl** -- inclination                      scalar in radians
 - **raan** -- right ascension of ascending node   scalar in radians
 - **argp** -- argument of perigee              scalar in radians
 - **nu** -- true anomaly                     scalar in radians
