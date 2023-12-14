@@ -37,7 +37,8 @@ Your exercise is to write an algorithm and function that computes future eccentr
 ## submittal 
 
 - [ ] algorithm
-- [ ] documented code
+- [ ] `newton.m` documented code
+- [ ] `test.m` test script
 - [ ] test case results
 - [ ] hand calculations
 
