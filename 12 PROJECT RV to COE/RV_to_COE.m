@@ -6,8 +6,12 @@
 clearvars; clc; 
 
 addpath ../sources/
+wgs84 = wgs84data;
 
 % ...
 
-wgs84 = wgs84data;
+fid_in = fopen('../sources/RV1.dat', 'rt'); 
 
+% ... 
+
+fclose(fid_in); 
