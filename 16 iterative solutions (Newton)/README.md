@@ -30,7 +30,7 @@ Your exercise is to write an algorithm and function that computes future eccentr
 
    - outputs: eccentric anomaly (radians)
 
-   - format of the function line: [Ef] = newton(ecc,Mf)
+   - format of the function line: `[Ef] = newton(ecc,Mf)`
 
 
 
@@ -48,6 +48,13 @@ Your exercise is to write an algorithm and function that computes future eccentr
 
 
 ## test case results
+
+| ecc  | Mf   | Ef   |
+| ---- | ---- | ---- |
+|      |      |      |
+|      |      |      |
+|      |      |      |
+|      |      |      |
 
 
 
