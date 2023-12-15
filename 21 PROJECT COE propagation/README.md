@@ -1,8 +1,6 @@
 # A201 Project—COE Propagation
 
-
-
-## grading checklist 
+## grading checklist
 
 - [ ] project complete
 
@@ -21,31 +19,21 @@ All of the following are required in order to receive credit for completion. You
   Explain why you needed extra test cases or why you didn’t. 
   Remember to test all cases of `coeupdate.m`
 
-
-
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
-
-
 
 ## objective
 
 The objective for Project COE Propagation is to write a MATLAB script file that first determines the classic orbital elements of an Earth orbiting body given its current R and V vectors, as you did in Project R&V to COEs, and then determines future classic orbital elements given a time of flight via a function called coeupdate, and finally outputs results to a file for later printing. Use the restricted 2-body assumptions when propagating the orbit.
 
- 
-
-## requirements 
+## requirements
 
 The function `coeupdate` will be added to your developing library for use in AstroEngr 321 and other advanced astrodynamics courses. As such, it should make use of utility functions you have developed in class thus far. It should also use the wgs84 data provided in the function `wgs84data`. You must document your code in accordance with the Astro Department’s standards.
-
-
 
 ## program specifications
 
 The following is a description of the inputs to your program and the information your program must generate:
-
- 
 
 GIVEN:
 
@@ -54,8 +42,6 @@ GIVEN:
 - initial **I, J, K** components of the velocity vector $\vec{V}$ (km/s)
 
 - time of flight **tof** (sec)
-
- 
 
 FIND:
 
@@ -73,24 +59,32 @@ FIND:
 
 Plus other items listed later in the output format.
 
-
-
 ## organization
 
-Your program should be modular in construction. A suggested organization is depicted in the following outline. Bold items are required.
+Your program should be modular in construction. A suggested organization is depicted in the following outline. Red items are required.
 
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'stepAfter' } } }%%
 
+graph TD;
 
-- **RV_to_COE**
-  - **wgs84data**
-  - input function
-  - **ElOrb**
-  - OrbParams
-  - **coeupdate**
-    - **newton**
-  - output function
+    COE_propagation---junction1[ ]
+    style junction1 height:0px;
 
+    junction1---wgs84data; 
+    junction1---id1[input function];
+    junction1---ElOrb
+    junction1---OrbParams;
+    junction1---coeupdate;
+    junction1---id2[output function];
 
+    coeupdate---newton
+
+%% Defining the styles
+    classDef Red fill:#FF9999;
+%% Assigning styles to nodes
+    class wgs84data,COE_propagation,ElOrb,coeupdate,newton Red;
+```
 
 ## additional requirements
 
@@ -104,7 +98,7 @@ You can only use the wgs84 structure variable to pass wgs84data constants to fun
 
 Edit `RV2.dat` so that Cases 3 and 4 have the correct values for 1 orbit TOF. Your program must read inputs from the file `RV2.dat`. Units are km, km/s, s. The format for each line is:
 
-```       
+```
 R(1), R(2), R(3), V(1), V(2), V(3), TOF
 ```
 
@@ -116,10 +110,10 @@ Your program must create a file and generate the following format. (Case 2 will 
 
 ```
 ***************** Case    1 *****************
- 
+
 R (km)    =  8840.0000 I     646.0000 J    5455.0000 K    Mag=  10407.6866
 V (km/s)  =    -0.6950 I       5.2500 J      -1.6500 K    Mag=      5.5469
- 
+
 Radius of Perigee (km) =   6260.5311
 Radius of Apogee  (km) =  11134.4744
 Energy    (km^2/sec^2) =    -22.9147
@@ -127,36 +121,29 @@ Period           (sec) =   8072.4025
 Period          (hour) =      2.2423
 Semimajor Axis    (km) =   8697.5027
 Eccentricity           =      0.2802
- 
+
 Inclination                           (deg) =     33.9987
 Right Ascension of the Ascending Node (deg) =    250.0287
 Argument of Perigee                   (deg) =    255.5372
 True Anomaly                          (deg) =    214.8548
- 
+
 Time of Flight  (Minutes) =      0.0000
 Future True Anomaly (deg) =    214.8548
 ```
-
-
 
 ## hints
 
 You can use RV_to_COE to validate most of your numbers, but you will need to validate the future true anomaly for each case another way. (The future true anomalies for most cases are very easy to determine.) 
 
-
-
-
 ## test case results
 
-|      | expected | actual |
-| ---- | -------- | ------ |
-|      |          |        |
-|      |          |        |
-|      |          |        |
-|      |          |        |
-|      |          |        |
-
-
+|     | expected | actual |
+| --- | -------- | ------ |
+|     |          |        |
+|     |          |        |
+|     |          |        |
+|     |          |        |
+|     |          |        |
 
 ## hand calculations
 
@@ -164,13 +151,9 @@ You can use RV_to_COE to validate most of your numbers, but you will need to val
 
 ![](../sources/hand_calc_example.jpg)
 
-
-
 ## additional test cases
 
 Explain why you did or did not need additional test cases. If necessary, include a table of results. 
-
-
 
 ## required function information
 
@@ -182,7 +165,7 @@ The following functions MUST be written and used in the appropriate places. The 
 
 This function "updates" the orbital elements after some time of flight (tof) using restricted 2-body assumptions. `coeupdate` calls `newton` which iterates Kepler's problem to solve for the future eccentric anomaly ($E_f$). `coeupdate` then finds the future true anomaly ($\nu_f$).
 
- ##### input
+##### input
 
 | variable   | description                 | units      |
 | ---------- | --------------------------- | ---------- |
@@ -195,7 +178,7 @@ This function "updates" the orbital elements after some time of flight (tof) usi
 | $tof$      | time of flight              | s          |
 | $wgs84$    | structure with constants    | (various)  |
 
- ##### output
+##### output
 
 | variable   | description                | units      |
 | ---------- | -------------------------- | ---------- |
@@ -206,15 +189,13 @@ This function "updates" the orbital elements after some time of flight (tof) usi
 | $\omega_f$ | future argument of perigee | rad        |
 | $\nu_f$    | future true anomaly        | rad        |
 
-
-
 ### newton
 
 `function [Ef] = newton(ecc,Mf)`
 
 This function uses Newton’s method to compute eccentric anomaly from mean anomaly.
 
-#### input 
+#### input
 
 | variable | description  | units      |
 | -------- | ------------ | ---------- |
@@ -227,7 +208,4 @@ This function uses Newton’s method to compute eccentric anomaly from mean anom
 | -------- | ------------ | ----- |
 | $M_f$    | mean anomaly | rad   |
 
-
-
-You must also use **revcheck.m** in the appropriate place.
-
+You must also use `revcheck.m` in the appropriate place.

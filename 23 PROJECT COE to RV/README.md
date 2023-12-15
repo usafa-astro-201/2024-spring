@@ -68,21 +68,31 @@ FIND:
 
 ## organization
 
-Your program should be modular in construction. A suggested organization is depicted in the following outline. Bold items are required.
+Your program should be modular in construction. A suggested organization is depicted in the following outline. Items in red are required.
 
+```mermaid
+%%{ init: { 'flowchart': { 'curve': 'stepAfter' } } }%%
 
+graph TD;
 
-- **RV_to_COE**
-  - **wgs84data**
-  - input function
-  - **ElOrb**
-  - OrbParams
-  - **coeupdate**
-  - **RandV**
-    - **axisrot**
-  - output function
-
-
+    COE_to_RV---junction1[ ]
+    style junction1 height:0px;
+	
+    junction1---wgs84data; 
+    junction1---id1[input function];
+    junction1---ElOrb
+    junction1---OrbParams;
+    junction1---coeupdate;
+    junction1---RandV;
+    junction1---id2[output function];
+    
+    RandV---axisrot;
+        
+%% Defining the styles
+    classDef Red fill:#FF9999;
+%% Assigning styles to nodes
+    class wgs84data,COE_to_RV,ElOrb,coeupdate,RandV,axisrot Red;
+```
 
 ## additional requirements
 
@@ -169,9 +179,11 @@ The following functions MUST be written and used in the appropriate places. The 
 
 ### RandV
 
-`function [Rijk,Vijk, Rpqw, Vpqw]=RandV (af, eccf, inclf, raanf, argpf, nuf,wgs84)   `   
+``` matlab 
+function [Rijk, Vijk, Rpqw, Vpqw] = RandV (af, eccf, inclf, raanf, argpf, nuf, wgs84)  
+```
 
-This function "updates" the orbital elements after some time of flight (tof) using restricted 2-body assumptions. `coeupdate` calls `newton` which iterates Kepler's problem to solve for the future eccentric anomaly ($E_f$). `coeupdate` then finds the future true anomaly ($\nu_f$).
+This procedure calculates position and velocity vectors in the Perifocal reference frame and then rotates the position and velocity vectors into the Geocentric-Equatorial reference frame
 
  ##### input
 
@@ -198,9 +210,11 @@ This function "updates" the orbital elements after some time of flight (tof) usi
 
 ### axisrot
 
-`function [B]=axisrot(A,axis,alpha)`
+``` matlab 
+function [B] = axisrot(A,axis,alpha)
+```
 
-This function performs a rotation of a vector “A,” about the desired axis, “axis,” by an angle, “alpha.”
+This function performs a rotation of a vector `A` about the desired axis, `axis` by an angle, `alpha`.
 
 #### input 
 

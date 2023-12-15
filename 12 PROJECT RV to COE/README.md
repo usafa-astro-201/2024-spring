@@ -149,6 +149,8 @@ True Anomaly                          (deg) =    214.8548
 
 ## hints
 
+Projects are cumulative. You will re-use files in later projects. Develop your code in the `../projects/` directory.
+
 Intrinsic (Built-in) functions that you may find helpful are: `dot` and `cross`.
 
 You can use the numbers above to validate case 1 but you will need to generate your own values to validate any other required cases.
@@ -228,9 +230,10 @@ The most appropriate place to code this line is in the driver program for each p
 
 Any function requiring wgs84 constants would have the wgs84 variable passed in to the function and then it could use code such as:
 
-`MU = wgs84.MU; %extract MU from wgs84`
-
-`RE = wgs84.RE; %extract RE from wgs84`
+``` matlab
+MU = wgs84.MU; % extract MU from wgs84
+RE = wgs84.RE; % extract RE from wgs84
+```
 
 
 
