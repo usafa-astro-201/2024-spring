@@ -36,7 +36,7 @@ a_y = \frac{-\mu}{R^2}
 $$
 See the powerpoint slides for more details on this function. It is recommended that you cut and paste the code from the slides for accel.m (but finish the documentation).
 
-You must run `wgs84data` before running this simulation (If you don’t, it will give a plot of a straight line.)
+You must run `wgs84data` before running this simulation (If you don’t, it will give a plot of a straight line.) Do this by running the script `run_first.m`.
 
 The model should produce the following plot.
 ![img](sources/clip_image002.jpg)
@@ -45,9 +45,8 @@ The model should produce the following plot.
 
 ## submittal 
 
-- [ ] documented simulink model `numerical_integration.slx`
+- [ ] simulink model `numerical_integration.slx`
 - [ ] cropped screenshot of simulink model (save and add to `readme.md`)
-- [ ] documented matlab model `accel.m`
 - [ ] plot
   - export -> send snapshot to: matlab figure -> capture snapshot
   - file -> save as -> `*.svg`
@@ -56,7 +55,15 @@ The model should produce the following plot.
 
 
 
-## figure
+## figures
 
 use this syntax to add your image: `![]()`
+
+### model output
+
+
+
+### simulink model screenshot
+
+
 
