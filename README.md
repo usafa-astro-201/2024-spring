@@ -49,7 +49,7 @@ Course material is available on Teams (`DFAS Public Files/Files/A201`).
 
 ## submission instructions
 
-Assignment submission instructions are available in [00 preparation/readme.md](preparation/readme.md).
+Assignment submission instructions are available in [00 preparation/readme.md](00 preparation/readme.md).
 
 
 
