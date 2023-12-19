@@ -67,7 +67,7 @@ You may explore alternatives tools if desired. Some of them are better than the 
 
 Install the following tools. You can install any way you like, but the easiest way is to copy the winget installation command to the windows command line. 
 
-`win-r` -> `wt` (or `cmd`) -> ok 
+`win`-`r` -> `wt` (or `cmd`) -> ok 
 
 - **marktext**
   `winget install marktext.marktext`
