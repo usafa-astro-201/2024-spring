@@ -73,9 +73,9 @@ NOTE! This project will have a VERY similar format to the Numerical Integration 
 
 ## additional requirements
 
-No specific functions are required. However, any m files that you create must be documented. You may also want to create script file to produce the required plot.
+No specific functions are required. However, any m files that you create must be documented. You may also want to create a script file to produce the required plot.
 
-You must use constants from wgs84data.m 
+You must use constants from `wgs84data.m` 
 
 Your program inputs are from the file `RV2.dat`. Units are km, km/s, s. The format for each line is:
 
