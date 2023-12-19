@@ -113,7 +113,7 @@ Create an account at [github.com](https://github.com/) using your afacademy.af.e
 You will complete and submit all assignments as follows
 
 - complete assignment, save, commit changes to your local repository
-  - remember to change the *authorized resources* section to _documentation_
+  - remember to change the ***authorized resources*** section to _**documentation**_
 - push changes to origin/remote repository/github
 - On github.com (not in tortoisegit) request a review using a pull request
   - click on *pull requests* -> *new*
