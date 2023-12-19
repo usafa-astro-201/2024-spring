@@ -49,6 +49,8 @@ $\mu=398600.5$ km^3^ s^-2^
 - [ ] screenshot of simulink model
 - [ ] table of step sizes vs Y values
 - [ ] truth value
+- [ ] hand calculations 
+- [ ] matlab script file(s)
 - [ ] plot of step size vs Y values (with logarithmic x-axis)
 
 

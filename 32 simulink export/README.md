@@ -18,9 +18,15 @@ In this exercise you will produce a set of output values, export them to Matlab 
 
 Create a Simulink program that generates a sine wave and sends it to a “To Workspace” block and a “scope” block. 
 
+Save the simulink output to a file with this command in the command window: `save('simulink_output.mat','out')`.
+
+Load the simulink output before plotting using these commands in your script: 
+``` matlab 
+clearvars; clc; 
+load('simulink_output.mat'); 
+```
+
 Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image and include in `readme.md`.
-
-
 
 1. simulink scope output
     - export to figure
@@ -40,10 +46,9 @@ Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image a
 
 ## submittal 
 
-- [ ] simulink model `numerical_integration.slx`
+- [ ] simulink model `export_project.slx`
+- [ ] matlab data file `simulink_output.mat`
 - [ ] matlab script file
-- [ ] table of step sizes vs Y values
-- [ ] truth value
 - [ ] 3 plots
   - [ ] simulink scope
   - [ ] matlab plot
@@ -51,28 +56,7 @@ Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image a
 
 
 
-
-## results 
-
-
-
-### step size
-
-| step size (s) | Y values |
-| ------------- | -------- |
-|               |          |
-|               |          |
-|               |          |
-
-
-
-### truth value
-
-(include at least 6 digits right of the decimal)
-
-
-
-## figure
+## figures
 
 use this syntax to add your image: `![]()`
 
