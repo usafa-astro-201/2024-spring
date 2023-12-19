@@ -16,7 +16,10 @@ Use the Simulink model you created last lesson to do your analysis.
 
 Add a “Display” module to the y component output. Then double click it and set format to “long”.
 
-Hint: Run wgs84data before running this simulation (if you don’t, it will give an incorrect final value of 0.3675)
+Hint: The function `accel.m` calls `wgs84data`, which needs to be in matlab’s path. Before running your model, run this command to add the correct folder to your path for this session (until you restart matlab). 
+
+​	`addpath ../projects/` 
+​	(If you don’t, it will give an incorrect final value of 0.3675.)
 
 Change the Stop or Final time to 7.5 seconds.
 
@@ -43,6 +46,7 @@ $\mu=398600.5$ km^3^ s^-2^
 ## submittal 
 
 - [ ] simulink model `numerical_integration.slx`
+- [ ] screenshot of simulink model
 - [ ] table of step sizes vs Y values
 - [ ] truth value
 - [ ] plot of step size vs Y values (with logarithmic x-axis)
@@ -55,11 +59,11 @@ $\mu=398600.5$ km^3^ s^-2^
 
 ### step size
 
-| step size (s) | Y values |
-| ------------- | -------- |
-|               |          |
-|               |          |
-|               |          |
+| step size | y value |
+| --------- | ------- |
+|           |         |
+|           |         |
+|           |         |
 
 
 
@@ -69,7 +73,13 @@ $\mu=398600.5$ km^3^ s^-2^
 
 
 
-## figure
+## figures
 
 use this syntax to add your image: `![]()`
+
+### model output
+
+
+
+### simulink model screenshot
 
