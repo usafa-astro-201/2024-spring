@@ -80,9 +80,9 @@ Assignment submission instructions are available in [00 preparation/readme.md](<
 | 15                       |                                                              | Work on project                                              |
 | 16                       | Iterative solutions (Newton)                                 | Write Newton.m                                               |
 | 17                       |                                                              | Work on project                                              |
-| 18^*^                    |                                                              | Work on project                                              |
+| 18<sup>*</sup>                    |                                                              | Work on project                                              |
 | 19                       |                                                              | Work on project                                              |
-| <mark> 20^†^     </mark> |                                                              | Work on project                                              |
+| <mark> 20<sup>†</sup>     </mark> |                                                              | Work on project                                              |
 | 21                       | **COE Propagation Project Assigned**                         | Work on project                                              |
 | 22                       |                                                              | Work on project                                              |
 | 23                       | COE’s to RV Lesson (Lecture)                                 | No In-class Assignment                                       |
@@ -100,9 +100,9 @@ Assignment submission instructions are available in [00 preparation/readme.md](<
 | 35                       |                                                              | Work on project                                              |
 | 36                       |                                                              | Work on project                                              |
 | 37                       |                                                              | Work on project                                              |
-| 38^**^                   |                                                              | Work on project                                              |
+| 38<sup>**</sup>                   |                                                              | Work on project                                              |
 | 39                       |                                                              |                                                              |
-| <mark> 40^††^   </mark>  |                                                              | Work on project                                              |
+| <mark> 40<sup>††</sup>   </mark>  |                                                              | Work on project                                              |
 
 \*/** Suggested submission dates for prog/final
 
