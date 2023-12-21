@@ -104,6 +104,6 @@ Assignment submission instructions are available in [00 preparation/readme.md](<
 | 39                       |                                                              |                                                              |
 | <mark> 40^††^   </mark>  |                                                              | Work on project                                              |
 
-*/** Suggested submission dates for prog/final
+\*/** Suggested submission dates for prog/final
 
 †/†† All assignments must be correctly submitted by the end of class on this date for a passing prog/final grade
