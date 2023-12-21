@@ -75,9 +75,10 @@ Install the following tools. You can install any way you like, but the easiest w
   `winget install git.git`
 - **tortoisegit**
   `winget install tortoisegit.tortoisegit`
-- **matlab** with **simulink**
-- **STK**
-  see instructions on Teams (`DFAS Public Files`)
+- DFAS standard programs (see instructions on Teams (`DFAS Public Files`)
+  - **matlab** with **simulink**
+  - **STK**
+
 
 You may also find a good text editor useful. I prefer notepad++.
 
@@ -86,7 +87,18 @@ You may also find a good text editor useful. I prefer notepad++.
 
 
 
-### github account
+### configure marktext
+
+Configure marktext to make image insertion easier/better. 
+
+- file -> preferences
+- image
+- prefer relative assets folder: **yes** (select toggle)
+- relative image folder names: **sources**
+
+
+
+## github account
 
 Create an account at [github.com](https://github.com/) using your afacademy.af.edu address. Your user name should be `firstlastusafa`. 
 
