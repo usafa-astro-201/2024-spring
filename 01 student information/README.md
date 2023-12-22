@@ -9,7 +9,7 @@ This example is publicly available so you can find it. Your responses will not b
 
 Markdown is a text-based markup language. You can edit it in any text editor, but it’s easiest in a markdown editor such as marktext. 
 
-In marktext, you can press `ctrl-e` at any time to toggle  source mode. Doing this in an existing file (such as this one) will reveal the syntax used for markdown features. 
+In marktext, you can press `ctrl`-`e` at any time to toggle  source mode. Doing this in an existing file (such as this one) will reveal the syntax used for markdown features. 
 
 Take a look at syntax for elements of this file. 
 
