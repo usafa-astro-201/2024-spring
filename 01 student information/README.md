@@ -15,8 +15,10 @@ Take a look at syntax for elements of this file.
 
 - multiple headers levels # for highest level ##, ### for lower levels
 - `![personal photo](starship.jpg)` to insert an image
-  - “personal photo” is alternate text describing the image. Tt might show up as mouseover text
-  - “starship.jpg” is the name of the file. You can put include images in subfolders like this: “sources/starship.jpg”. 
+  - photo needs to be in same directory; if placed in a subfolder, would look like `![](sources/starship.jpg)'
+  - “personal photo” is alternate text describing the image. It might show up as mouseover text
+  - you can also simply paste the image into marktext (only inserts gifs/pngs/jpgs)
+    - ensure you configured marktext to store images in a relative directory
 - lists start with `dash space`
 - short code snippets start and end with a back single quote `
 
