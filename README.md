@@ -43,7 +43,7 @@
 
  ## course material
 
-Course material is available on Teams (`DFAS Public Files/Files/A201`). 
+Course material is available on Teams ([DFAS Public Files/Files/A201](https://usafa0.sharepoint.com/:f:/r/sites/DFASPublicFiles/Shared%20Documents/General/A201?csf=1&web=1&e=wbbded)). 
 
 
 
