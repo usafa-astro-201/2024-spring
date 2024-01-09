@@ -60,18 +60,19 @@ Assignment submission instructions are available in [00 preparation/readme.md](<
 
 
 ## schedule 
+(modified for snow day 2024-01-08)
 
 | **Lesson**               | **Subject**                                                  | **In-class**                                                 |
 | ------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1                        | Intro/Overview  Installation and Using Help  Menus           | Install Matlab                                               |
-| 2                        | Variables                                                    |                                                              |
-| 3                        | Math                                                         |                                                              |
-| 4                        | Functions Intrinsic  (Built-in)   User Defined               | mag.m & vecangle.m Part  1                                   |
-| 5                        | Documentation  Validation and Testing                        | mag.m & vecangle.m Part  2                                   |
-| 6                        | Structured Programming  Algorithms                           | Write an algorithm                                           |
-| 7                        | Input/Output                                                 | Write getposvel.m,  writevec.m                               |
-| 8                        |                                                              |                                                              |
-| 9                        | Structures Loops,  Conditions, Etc.                          | Write a loop, write  revchecklong.m and revcheck.m           |
+| 1                        | snow day                                                     |                                                              |
+| 2                        | Intro/Overview  Installation and Using Help  Menus           | Install Matlab                                               |
+| 3                        | Variables                                                    |                                                              |
+| 4                        | Math                                                         |                                                              |
+| 5                        | Functions: Intrinsic (Built-in), User Defined            | mag.m & vecangle.m Part  1                                   |
+| 6                        | Documentation, Validation, and Testing                      | mag.m & vecangle.m Part  2                                   |
+| 7                        | Structured Programming Algorithms                           | Write an algorithm                                           |
+| 8                        | Input/Output                                                 | Write getposvel.m,  writevec.m                               |
+| 9                        | Structures Loops, Conditions, Etc.                          | Write a loop, write  revchecklong.m and revcheck.m           |
 | 10                       | Debugging Techniques                                         | Debugging Exercise                                           |
 | 11                       |                                                              |                                                              |
 | 12                       | **RV to COE’s Project Assigned**                             | Work on project                                              |
