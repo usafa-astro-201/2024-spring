@@ -55,7 +55,7 @@ Assignment submission instructions are available in [00 preparation/readme.md](<
 
 ## textbook
 
-*Fundamentals of Astrodynamics* by Bate, Mueller and White
+*Fundamentals of Astrodynamics* by Bate, Mueller, and White
 
 
 
