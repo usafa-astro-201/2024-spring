@@ -4,9 +4,7 @@
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
-
-
-## background 
+## background
 
 Determining the correct step size to use in integration is very important. This exercise gives you the opportunity to examine the effects of changing the step size.  
 
@@ -18,8 +16,8 @@ Add a “Display” module to the y component output. Then double click it and s
 
 Hint: The function `accel.m` calls `wgs84data`, which needs to be in matlab’s path. Before running your model, run this command to add the correct folder to your path for this session (until you restart matlab). 
 
-​	`addpath ../projects/` 
-​	(If you don’t, it will give an incorrect final value of 0.3675.)
+​    `addpath ../projects/` 
+​    (If you don’t, it will give an incorrect final value of 0.3675.)
 
 Change the Stop or Final time to 7.5 seconds.
 
@@ -30,6 +28,7 @@ Repeat the process for step sizes of  0.1, 0.01, 0.001 and 0.0001, but leave the
 Plot step size on a logarithmic x-axis vs y values on the y axis to see convergence
 
 Finally compare the final values with the “truth” value (exact analytic solution) determined from:
+
 $$
 y_f = y_0 + \dot{y}_0 t_f + \frac{1}{2} a {t_f}^2
 $$
@@ -38,12 +37,10 @@ $$
 a = -\frac{\mu}{r^2}
 $$
 
-$r=6378.137$ km
-$\mu=398600.5$ km^3^ s^-2^
+$r=6378.137 km$
+$\mu=398600.5 km^3 s^{-2}
 
-
-
-## submittal 
+## submittal
 
 - [ ] simulink model `numerical_integration.slx`
 - [ ] screenshot of simulink model
@@ -53,11 +50,7 @@ $\mu=398600.5$ km^3^ s^-2^
 - [ ] matlab script file(s)
 - [ ] plot of step size vs Y values (with logarithmic x-axis)
 
-
-
-## results 
-
-
+## results
 
 ### step size
 
@@ -67,13 +60,9 @@ $\mu=398600.5$ km^3^ s^-2^
 |           |         |
 |           |         |
 
-
-
 ### truth value
 
 (include at least 6 digits right of the decimal)
-
-
 
 ## figures
 
@@ -81,7 +70,4 @@ use this syntax to add your image: `![]()`
 
 ### model output
 
-
-
 ### simulink model screenshot
-

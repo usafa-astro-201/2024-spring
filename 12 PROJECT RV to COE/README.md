@@ -165,7 +165,7 @@ You have two options for this comparison.
 
 1. You can manually complete the table below. 
 2. You can compare `expected_output.txt` to your output. If your output filename is `output.txt` you can compare files with this command line entry. 
-   `git diff --no-index --word-diff expected_output.txt output.txt`
+   `git diff --no-index expected_output.txt output.txt`
 
 `git diff` will display the differences between the files. If there are no differences it will display nothing. 
 

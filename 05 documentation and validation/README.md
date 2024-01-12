@@ -24,9 +24,11 @@ Follow the USAFA/DFAS documentation standards illustrated in the file `example_a
 ### vecangle.m
 
 `vecangle.m` takes two, three-dimensional input vectors and determines the angle between the two vectors using the following relationship:
+
 $$
 \vec{A} \cdot\vec{B} = |A||B|\cos\theta
 $$
+
 where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 
@@ -71,7 +73,7 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 | input     | output |
 | --------- | ------ |
-| […, …, …] |        |
+| […; …; …] |        |
 |           |        |
 |           |        |
 
@@ -81,7 +83,7 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 | input                 | output |
 | --------------------- | ------ |
-| […, …, …] & […, …, …] |        |
+| […; …; …] & […; …; …] |        |
 |                       |        |
 |                       |        |
 

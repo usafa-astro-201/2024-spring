@@ -23,22 +23,24 @@ T_{flight} = \frac{2 V_{vert}}{a}
 $$
 
 2. maximum height reached
+
 $$
 alt_{max} = \frac{{V_{vert}}^2}{2a}
 $$
 
 3. maximum horizontal distance traveled 
+
 $$
 D = V_{horiz} T_{flight}
 $$
 
 
-$T_{flight}$ is time of flight 
-$V_{horiz}$ is horizontal velocity
-$V_{vert}$ is vertical velocity
-$Alt_{max}$ is maximum altitude
-$D$ is horizontal distance traveled
-$a$ is acceleration due to gravity
+$T_{flight}$ is time of flight  
+$V_{horiz}$ is horizontal velocity  
+$V_{vert}$ is vertical velocity  
+$Alt_{max}$ is maximum altitude  
+$D$ is horizontal distance traveled  
+$a$ is acceleration due to gravity  
 
 You may use any method to calculate test cases. 
 

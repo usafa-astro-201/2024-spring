@@ -26,9 +26,11 @@ We have discussed some of Matlab’s math functions and operations. In this exer
 ### vecangle.m
 
 `vecangle.m` takes two, three-dimensional input vectors and determines the angle between the two vectors using the following relationship:
+
 $$
 \vec{A} \cdot\vec{B} = |A||B|\cos\theta
 $$
+
 where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 
