@@ -1,12 +1,8 @@
-# A201 Exercise—algorithm 
-
-
+# A201 Exercise—algorithm
 
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
-
-
 
 ## background
 
@@ -20,48 +16,37 @@ Import 2-dimensional vectors (units of km), one at a time, from a file (you don�
 
 *You are required to have at least one sub-function when you write this algorithm.*
 
-
-
 ## tasks
 
 Write an algorithm set to accomplish the above tasks. Be sure you start with the main steps and then fill in the details down to the equation level.
 
 **Use the “example algorithm” section of this file as a template to start.**
 
-
-
 ## submittal
 
 - [ ] algorithm for main program (title, inputs, outputs, process with comments)
 - [ ] algorithm for sub-function(s) (title, inputs, outputs, process with comments)
 
-
-
-## example algorithm 
-
-
+## example algorithm
 
 ### compute_properties algorithm
 
 Given a file with sets of input values (see below), compute corresponding output values (see below) to be printed to the screen.
-
- 
 
 #### inputs
 
 File containing sets of:
 
 - Altperigee    - altitude of perigee (km)
-- Altapogee    - altitude of apogee (km)
 
- #### outputs 
+- Altapogee    - altitude of apogee (km)
+  
+  #### outputs
 
 For each set of data print to the screen:
 
 - ​    a        - semi-major axis (km)
 - ​    e        - eccentricity
-
- 
 
 #### process
 
@@ -83,8 +68,6 @@ Close the input file
 
 End of compute_properties
 
-
-
 ### aecalc algorithm
 
 Compute the size and shape of an orbit given the perigee and apogee altitudes. 
@@ -94,16 +77,15 @@ Compute the size and shape of an orbit given the perigee and apogee altitudes.
 File containing sets of:
 
 - Altperigee    - altitude of perigee (km)
-- Altapogee    - altitude of apogee (km)
 
- #### outputs 
+- Altapogee    - altitude of apogee (km)
+  
+  #### outputs
 
 For Each set of data print to the screen:
 
 - ​    a        - semi-major axis (km)
 - ​    e        - eccentricity
-
- 
 
 #### process
 
@@ -122,9 +104,9 @@ Convert Altperigee to Rperigee
 Find the semi-major axis
 
 - a=(Rapogee+Rperigee)/2
-
- Find the eccentricity
+  
+  Find the eccentricity
 
 - e=(Rapogee-Rperigee)/ (Rapogee+Rperigee)
-
- End of aecalc
+  
+  End of aecalc

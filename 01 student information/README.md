@@ -4,7 +4,6 @@ You will use this assignment to gain familiarity with markdown, git, github, and
 
 This example is publicly available so you can find it. Your responses will not be publicly available. 
 
-
 ## markdown instructions
 
 Markdown is a text-based markup language. You can edit it in any text editor, but it’s easiest in a markdown editor such as marktext. 
@@ -48,13 +47,9 @@ After you have pushed, request review via a **pull request** on github.com
 
 **Note: Don’t click “merge pull request” or “close pull request.” Your instructor will close the pull request when you have successfully completed all assignments for Astro 201. **
 
-
-
 ## student information
 
 Erase this section and all previous sections. Complete file with your own information, including a photo. Save, commit, push. 
-
-
 
 # 01 student information
 

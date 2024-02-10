@@ -1,12 +1,8 @@
 # A201 Exercise—Input Output Exercise
 
-
-
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
-
-
 
 ## background
 
@@ -16,25 +12,24 @@ There is a file called vector.dat on the in the lesson folder. The file has 6 nu
 
 In this exercise you will write two m-files: one to import the data into Matlab’s workspace and one to export the data to a formatted output file. The algorithms are provided at the end of this file.
 
-
-
 ## submittal
 
 - [ ] `getposvel.m`
+  
   - [ ] documented code
   - [ ] test case results from `[posvec,velvec]=getposvel('vector.dat')`
     (put expected and actual values in a comparison table)
 
 - [ ] `writevec.m`
+  
   - [ ] documented code
   - [ ] test case results from `writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')`
     Where `posvec` is from `getposvel` test. You must use appropriately sized `%x.yf` formats for the numbers
     (put expected and actual values in a comparison table)
+
 - [ ] test script
+
 - [ ] output file
-
-
-
 
 ## test case results
 
@@ -58,11 +53,7 @@ expected:
 actual: 
 `your results here`
 
-
-
-## provided algorithms 
-
-
+## provided algorithms
 
 ### getposvel.m
 
@@ -71,8 +62,8 @@ This function will:
 - import the first 3 numbers into a column vector (3x1) 
 
 - import the last 3 numbers into a column vector (3x1) 
-
- #### test syntax
+  
+  #### test syntax
 
 `[posvec,velvec]=getposvel('vector.dat')`
 
@@ -97,8 +88,6 @@ Read vec2 from the input file, a (3x1) vector
 Close the input file
 
 End getposvel.m
-
-
 
 ### writevec.m
 
@@ -150,5 +139,3 @@ position vector
 Close the output file
 
 End writevec.m
-
- 

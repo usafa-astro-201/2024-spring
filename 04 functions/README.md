@@ -1,16 +1,10 @@
 # A201 Exercise—Math Functions (part 1)
 
-
-
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
-
-
 For your submission, change this section to _documentation_. 
-
-
 
 ## background
 
@@ -33,20 +27,14 @@ $$
 
 where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
-
-
 ## tasks
 
 1. **`mag.m`** Write an m-file function that will find the magnitude of a 3x1 vector.
 
-
       - input: vector (*not* separate variables for each component)
-
-
+    
+    
       - output:  vector magnitude
-
-
-
 
 2) **`vecangle.m`** Write an m-file function that will find the angle between two input vectors.
    - inputs
@@ -56,12 +44,7 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
      - The smaller (less than pi radians) angle between the two vectors
      - (must output radians)
 
- 
-
 ## submittal
 
 - [ ] Code for `mag.m`
 - [ ] Code for `vecangle.m`
-
-
-

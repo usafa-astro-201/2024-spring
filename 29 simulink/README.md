@@ -4,15 +4,11 @@
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
-
-
-## background 
+## background
 
 Simulink is a graphical programming language that makes developing models faster and easier for many problems. 
 
 Your exercise is to create a simple Simulink model.
-
-
 
 ## tasks
 
@@ -22,13 +18,9 @@ Create the following model:
 
 You will need the following library blocks: Sine Wave, Integrator, MUX and Scope.
 
- 
-
 Run the program and view the output.
 
-
-
-## submittal 
+## submittal
 
 - [ ] simulink model `simple_model.slx` with documentation/annotations seen above
 - [ ] cropped screenshot of your model
@@ -38,9 +30,6 @@ Run the program and view the output.
   - first file -> print to figure
   - then file -> save as -> svg
   - place in `readme.md`
-
-
-
 
 ## figures
 

@@ -9,8 +9,8 @@ All of the following are required in order to receive credit for completion. You
 - [ ] algorithms: 1 for the main script; 1 for each sub-function
   Could someone duplicate your program from this?
 - [ ] clear, concise, documented m-file code
-- [ ] correct answers for provided test cases in `RV2.dat`
-  Cases 3 & 4 will need to be modified in `RV2.dat`to include 1 orbit TOF
+- [ ] correct answers for provided test cases in `RV3.dat`
+  Cases 3 & 4 will need to be modified in `RV3.dat`to include 1 orbit TOF
   - [ ] Create a table of expected vs actual 
     (just true anomaly since it is the only new output)
   - [ ] supporting hand calculations 
@@ -96,7 +96,7 @@ You must use constants from wgs84data.m
 
 You can only use the wgs84 structure variable to pass wgs84data constants to functions
 
-Edit `RV2.dat` so that Cases 3 and 4 have the correct values for 1 orbit TOF. Your program must read inputs from the file `RV2.dat`. Units are km, km/s, s. The format for each line is:
+Edit `RV3.dat` so that Cases 3 and 4 have the correct values for 1 orbit TOF. Your program must read inputs from the file `RV3.dat`. Units are km, km/s, s. The format for each line is:
 
 ```
 R(1), R(2), R(3), V(1), V(2), V(3), TOF

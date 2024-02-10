@@ -1,12 +1,10 @@
-# Welcome to Astro 201! 
+# Welcome to Astro 201!
 
 In this class you will learn some of the computer skills you will need to succeed as an Astro major. 
 
 Lecture notes are available on Teams (`DFAS Public Files/A201/`). 
 
 Students in this section will use git for version control and submit assignments via github. 
-
-
 
 ## version control
 
@@ -49,8 +47,6 @@ If you’re collaborating with other people or working from multiple computers, 
 - **commit**
 - **push** your local changes to the remote repository (origin)
 
-
-
 ## tools
 
 **Git** is a command line version control tool. We will use a GUI called Tortoisegit that integrates with Windows file explorer. 
@@ -60,8 +56,6 @@ If you’re collaborating with other people or working from multiple computers, 
 Git works best with text-based files. You will use the **marktext** editor to work with markdown files. 
 
 You may explore alternatives tools if desired. Some of them are better than the ones used in class. Typora is a better markdown editor, although it isn’t free. Sourcetree is a powerful git GUI—still free, but much more complicated. 
-
-
 
 ### install tools
 
@@ -79,13 +73,10 @@ Install the following tools. You can install any way you like, but the easiest w
   - **matlab** with **simulink**
   - **STK**
 
-
 You may also find a good text editor useful. I prefer notepad++.
 
 - **notepad++**
   `winget install notepad++.notepad++`
-
-
 
 ### configure marktext
 
@@ -96,29 +87,28 @@ Configure marktext to make image insertion easier/better.
 - prefer relative assets folder: **yes** (select toggle)
 - relative image folder names: **sources**
 
-
-
 ## github account
 
 Create an account at [github.com](https://github.com/) using your afacademy.af.edu address. Your user name should be `firstlastusafa`. 
-
-
 
 ## get started
 
 - accept your assignment in github
   [https://classroom.github.com/a/Qqm8zfXo](https://classroom.github.com/a/Qqm8zfXo)
+
 - refresh the page and copy the link of your personal repository 
   (link looks like this:) 
   `https://github.com/astro-201/2024-spring-your-username`
+
 - go to `Documents` on your hard drive (or the location you want to store Astro 201 files)
+
 - right click in the empty space
+
 - git clone -> paste URL -> change directory* ok -> success
+  
   - \* you may want your local directory to include ‘Astro 201’
 
 - Open `01 student information/readme.md` in your markdown editor (marktext). 
-
-
 
 ## assignment submission
 

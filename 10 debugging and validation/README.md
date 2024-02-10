@@ -1,12 +1,8 @@
-# A201 Exercise—debugging 
-
-
+# A201 Exercise—debugging
 
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
-
-
 
 ## background
 
@@ -34,7 +30,6 @@ $$
 D = V_{horiz} T_{flight}
 $$
 
-
 $T_{flight}$ is time of flight  
 $V_{horiz}$ is horizontal velocity  
 $V_{vert}$ is vertical velocity  
@@ -44,23 +39,16 @@ $a$ is acceleration due to gravity
 
 You may use any method to calculate test cases. 
 
-
-
-## tasks 
+## tasks
 
 1. Starting with the m-file *badintro.m*, find all the errors in the program and debug it so it provides reliable values for the intended calculations.
 2. Determine a test case to validate the answer for at least one of the five cases.
-
-
 
 ## submittal
 
 - [ ] fixed `badintro.m` code
 - [ ] test case results for the five cases
 - [ ] hand calculations for one of the cases (for validation)
-
-
-
 
 ## test case results
 
@@ -76,8 +64,6 @@ You may use any method to calculate test cases.
 | actual   |       |            |             |          |              |
 | expected |       |            |             |          |              |
 | actual   |       |            |             |          |              |
-
-
 
 ## hand calculations
 

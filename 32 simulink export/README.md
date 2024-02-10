@@ -4,15 +4,11 @@
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
-
-
-## background 
+## background
 
 We have discussed how to export data from Simulink. 
 
 In this exercise you will produce a set of output values, export them to Matlab for plotting and then you will export them to an Excel spreadsheet and plot them there.
-
-
 
 ## tasks
 
@@ -21,7 +17,8 @@ Create a Simulink program that generates a sine wave and sends it to a “To Wor
 Save the simulink output to a file with this command in the command window: `save('simulink_output.mat','out')`.
 
 Load the simulink output before plotting using these commands in your script: 
-``` matlab 
+
+```matlab
 clearvars; clc; 
 load('simulink_output.mat'); 
 ```
@@ -29,22 +26,19 @@ load('simulink_output.mat');
 Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image and include in `readme.md`.
 
 1. simulink scope output
-    - export to figure
-    - save figure as svg and include in `readme.md`
+   - export to figure
+   - save figure as svg and include in `readme.md`
 2. scripted matlab plot
-    - `   plot(xaxisvariable,yaxisvariable)`
-    - save and submit your script file
-    - save figure as svg and include in `readme.md`
+   - `   plot(xaxisvariable,yaxisvariable)`
+   - save and submit your script file
+   - save figure as svg and include in `readme.md`
 3. excel plot
-    - copy data from workspace variable to excel
-    - plot it
-    - save a screenshot with `win`-`shift`-`S`
-    - paste the screenshot into `readme.md` in marktext
+   - copy data from workspace variable to excel
+   - plot it
+   - save a screenshot with `win`-`shift`-`S`
+   - paste the screenshot into `readme.md` in marktext
 
-
-
-
-## submittal 
+## submittal
 
 - [ ] simulink model `export_project.slx`
 - [ ] matlab data file `simulink_output.mat`
@@ -54,9 +48,6 @@ Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image a
   - [ ] matlab plot
   - [ ] excel screenshot
 
-
-
 ## figures
 
 use this syntax to add your image: `![]()`
-
