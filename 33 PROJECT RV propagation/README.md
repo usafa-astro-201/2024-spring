@@ -13,7 +13,7 @@ All of the following are required in order to receive credit for completion. You
 
 - [ ] all `*.m` files called by your simulink model—documented as necessary
 
-- [ ] correct answers for cases 3–5 of `RV3.dat` (within 0.01 km position accuracy). 
+- [ ] correct answers for cases 3–5 of `RV2.dat` (within 0.01 km position accuracy). 
   
   - [ ] Include expected vs actual tables with values listed to the thousands place
   - [ ] hand calculations
@@ -63,13 +63,13 @@ No specific functions are required. However, any m files that you create must be
 
 You must use constants from `wgs84data.m` 
 
-Your program inputs are from the file `RV3.dat`. Units are km, km/s, s. The format for each line is:
+Your program inputs are from the file `RV2.dat`. Units are km, km/s, s. The format for each line is:
 
 ```
 R(1), R(2), R(3), V(1), V(2), V(3), TOF
 ```
 
-You do NOT need to read the inputs directly from `RV3.dat`. You can cut and paste R, V and TOF data from the file for each of the three runs required. (Run case 3, change the inputs, run case 4, etc.) 
+You do NOT need to read the inputs directly from `RV2.dat`. You can cut and paste R, V and TOF data from the file for each of the three runs required. (Run case 3, change the inputs, run case 4, etc.) 
 
 Once you have your simulation working, use your plotting skills to produce a 3 dimensional plot of your R vectors over the course of the simulation for case 3. Use rplot.m to do this (see below.)
 

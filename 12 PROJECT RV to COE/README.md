@@ -95,7 +95,7 @@ You must use constants from wgs84data.m (see information in following section)
 
 You can only use the wgs84 structure variable to pass wgs84data constants to functions
 
-Your program must read inputs from the file `RV1.dat` or `RV2.dat`. Units are km and km/s. The format for each line is:
+Your program must read inputs from the file `RV1.dat`. Units are km and km/s. The format for each line is:
 
 ```
 R(1), R(2), R(3), V(1), V(2), V(3)
@@ -105,7 +105,7 @@ Each R, V pair must be processed and printed to the output file before reading t
 
 **Do not** hard-code the number of cases or the data into the program (use a while loop)
 
-Your program must create a file and generate the following format. Case 1 is calculated from the first line of `RV2.dat`. For your output, Case 2 will follow immediately after Case 1 with the same format.
+Your program must create a file and generate the following format. Case 1 is calculated from the first line of `RV1.dat`. For your output, Case 2 will follow immediately after Case 1 with the same format.
 
 ```
 ***************** Case    1 *****************
