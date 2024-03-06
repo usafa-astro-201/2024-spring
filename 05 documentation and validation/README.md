@@ -34,6 +34,7 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 
 - output:  vector magnitude
 2) **`vecangle.m`** Write an m-file function that will find the angle between two input vectors.
+   
    - inputs
      - Vector 1
      - Vector 2
@@ -41,40 +42,12 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
      - The smaller (less than pi radians) angle between the two vectors
      - (must output radians)
 
-## submittal
-
-- [ ] documented code for both functions 
-  
-  - [ ] `mag.m`
-  - [ ] `vecangle.m`
-
-- [ ] test case results for both functions
-  
-  - [ ] create results table in `readme.md`
-  - [ ] include test script
-
-- [ ] hand calculations for test cases (image in repository and insert in this file)
-
-## test case results
-
-### mag.m
-
-| input     | output |
-| --------- | ------ |
-| […; …; …] |        |
-|           |        |
-|           |        |
-
-### vecangle.m
-
-| input                 | output |
-| --------------------- | ------ |
-| […; …; …] & […; …; …] |        |
-|                       |        |
-|                       |        |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)
+3) submit both files (mag.m and vecangle.m) and complete submission.md in this folder 
+   
+   - complete, save, push all new/changed files
+   
+   - create pull request 
+     
+     - base: feedback <- compare: main
+   
+   - add your instructor as a reviewer

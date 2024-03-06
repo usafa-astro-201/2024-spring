@@ -1,21 +1,5 @@
 # A201 Project—RV to COE
 
-## grading checklist
-
-- [ ] project complete
-
-All of the following are required in order to receive credit for completion. Your instructor will check off your completed sections and provide comments below or on the files you submit. Copy your work below this cover checklist.
-
-- [ ] algorithms: 1 for the main script; 1 for each sub-function
-  Could someone duplicate your program from this?
-- [ ] clear, concise, documented m-file code
-- [ ] correct answers for provided test cases in `RV1.dat`
-  - [ ] Create a table of expected vs actual
-  - [ ] supporting hand calculations 
-  - [ ] include the output file in your repository
-- [ ] additional test cases and comparison table
-  Explain why you needed extra test cases or why you didn’t. 
-
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
@@ -85,6 +69,22 @@ graph TD;
     class wgs84data,RV_to_COE,ElOrb Red;
 ```
 
+Copy your documented functions `mag.m` and `vecangle.m` from `05 documentation and validation` to the `projects` directory. Your code will use those functions and the provided function `wgs84data.m`. 
+
+Your code for this project will be in the `12 PROJECT RV to COE` directory. In order to run functions from the project directory, include this line near the top of  your code in `RV_to_COE.m`
+
+```matlab
+addpath ../projects/ ;
+```
+
+`../` refers to the parent directory of the current directory. Matlab's `addpath` command temporarily (for this session) adds the provided directory to its search path. 
+
+You also need to open `RV1.dat` from the `projects` directory. That command looks like this. 
+
+```matlab
+fid = fopen('../projects/RV1.dat', 'rt'); 
+```
+
 ## additional requirements
 
 All subprograms listed above must be coded in MatLab.  
@@ -107,7 +107,7 @@ Each R, V pair must be processed and printed to the output file before reading t
 
 Your program must create a file and generate the following format. Case 1 is calculated from the first line of `RV1.dat`. For your output, Case 2 will follow immediately after Case 1 with the same format.
 
-```
+```text
 ***************** Case    1 *****************
 
 R (km)    =  8840.0000 I     646.0000 J    5455.0000 K    Mag =  10407.6866
@@ -129,60 +129,13 @@ True Anomaly                          (deg) =    214.8548
 
 ## hints
 
-Projects are cumulative. You will re-use files in later projects. Develop your code in the `../projects/` directory.
+Projects are cumulative. You will re-use files in later projects. 
+
+`RV_to_COE.m` and the output file should be in the `12 PROJECT RV to COE` directory. However, any functions you write (`ElOrb.m`, `hnevec.m`, etc.) should be placed in the `../projects/` directory.
 
 Intrinsic (Built-in) functions that you may find helpful are: `dot` and `cross`.
 
 You can use the numbers above to validate case 1 but you will need to generate your own values to validate any other required cases.
-
-## test case results
-
-Provide test case results for Case 1—the results from the first line of `RV1.dat`. Compare program outputs to the expected outputs provided above and in `expected_outputs.txt`.
-
-You have two options for this comparison. 
-
-1. You can manually complete the table below. 
-2. You can compare `expected_output.txt` to your output. If your output filename is `output.txt` you can compare files with this command line entry. 
-   `git diff --no-index expected_output.txt output.txt`
-
-`git diff` will display the differences between the files. If there are no differences it will display nothing. 
-
-If you select option 2, replace the table with the results of `git diff`. If files are identical, say so. 
-
-You must still provide hand calculations. 
-
-You must still provide any necessary additional test case results and discuss why they are or are not necessary. 
-
-### case 1
-
-**Input**: 
-
-` put input here (1st line of RV1.dat)`
-
-**Output**:
-
-|               | expected | actual | units     |
-| ------------- | -------- | ------ | --------- |
-| $r_p$         |          |        |           |
-| $r_a$         |          |        |           |
-| $\varepsilon$ |          |        |           |
-| $\mathbb{P}$  |          |        |           |
-| $a$           |          |        |           |
-| $e$           |          |        |           |
-| $i$           |          |        | $\degree$ |
-| $\Omega$      |          |        | $\degree$ |
-| $\omega$      |          |        | $\degree$ |
-| $\nu$         |          |        | $\degree$ |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)
-
-## additional test cases
-
-Explain why you did or did not need additional test cases. If necessary, include a table of results. 
 
 ## function information
 

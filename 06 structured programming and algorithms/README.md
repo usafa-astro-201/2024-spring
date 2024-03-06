@@ -27,13 +27,15 @@ Write an algorithm set to accomplish the above tasks. Be sure you start with the
 - [ ] algorithm for main program (title, inputs, outputs, process with comments)
 - [ ] algorithm for sub-function(s) (title, inputs, outputs, process with comments)
 
-## example algorithm
+# Algorithms
 
-### compute_properties algorithm
+Copy these examples to submission.md as a starting point. Then change them into the algorithms you are writing. Copy and paste will work better in source code mode (`ctrl`-`e`). 
+
+## compute_properties algorithm
 
 Given a file with sets of input values (see below), compute corresponding output values (see below) to be printed to the screen.
 
-#### inputs
+### inputs
 
 File containing sets of:
 
@@ -41,14 +43,14 @@ File containing sets of:
 
 - Altapogee    - altitude of apogee (km)
   
-  #### outputs
+  ### outputs
 
 For each set of data print to the screen:
 
 - ​    a        - semi-major axis (km)
 - ​    e        - eccentricity
 
-#### process
+### process
 
 Open the input file
 
@@ -58,6 +60,7 @@ Loop until no more data in the file
   - Scan in values Altperigee, Altapogee
 - Use aecalc to get the requested parameters
   - [a,e]=aecalc(Altperigee, Altapogee)
+  - **NOTE: use matlab syntax here to indicate a call to the other function**
 - Print the data to the screen
   - Print “Altitudes of perigee and apogee are:”, Altperigee, Altapogee
   - Print “a, e are:“, a,e
@@ -66,28 +69,28 @@ End Loop
 
 Close the input file
 
-End of compute_properties
+#### End of compute_properties algorithm
 
-### aecalc algorithm
+## aecalc algorithm
 
 Compute the size and shape of an orbit given the perigee and apogee altitudes. 
 
-#### inputs
+### inputs
 
 File containing sets of:
 
 - Altperigee    - altitude of perigee (km)
 
 - Altapogee    - altitude of apogee (km)
-  
-  #### outputs
+
+### outputs
 
 For Each set of data print to the screen:
 
 - ​    a        - semi-major axis (km)
 - ​    e        - eccentricity
 
-#### process
+### process
 
 Define the radius of the Earth
 
@@ -103,10 +106,10 @@ Convert Altperigee to Rperigee
 
 Find the semi-major axis
 
-- a=(Rapogee+Rperigee)/2
+- $a=\frac{1}{2}(R_{apogee}+R_{perigee})$
   
   Find the eccentricity
 
-- e=(Rapogee-Rperigee)/ (Rapogee+Rperigee)
-  
-  End of aecalc
+- $ e = \frac{R_{apogee}-R_{perigee}}{R_{apogee}+R_{perigee}}$
+
+#### End of aecalc algorithm

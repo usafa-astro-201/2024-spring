@@ -43,30 +43,3 @@ You may use any method to calculate test cases.
 
 1. Starting with the m-file *badintro.m*, find all the errors in the program and debug it so it provides reliable values for the intended calculations.
 2. Determine a test case to validate the answer for at least one of the five cases.
-
-## submittal
-
-- [ ] fixed `badintro.m` code
-- [ ] test case results for the five cases
-- [ ] hand calculations for one of the cases (for validation)
-
-## test case results
-
-|          | $v_0$ | $\theta_0$ | flight time | distance | max altitude |
-| -------- | ----- | ---------- | ----------- | -------- | ------------ |
-| expected |       |            |             |          |              |
-| actual   |       |            |             |          |              |
-| expected |       |            |             |          |              |
-| actual   |       |            |             |          |              |
-| expected |       |            |             |          |              |
-| actual   |       |            |             |          |              |
-| expected |       |            |             |          |              |
-| actual   |       |            |             |          |              |
-| expected |       |            |             |          |              |
-| actual   |       |            |             |          |              |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)

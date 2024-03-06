@@ -30,21 +30,28 @@ where $\theta$ is the angle between $\vec{A}$ and $\vec{B}$.
 ## tasks
 
 1. **`mag.m`** Write an m-file function that will find the magnitude of a 3x1 vector.
-
-      - input: vector (*not* separate variables for each component)
-    
-    
-      - output:  vector magnitude
-
-2) **`vecangle.m`** Write an m-file function that will find the angle between two input vectors.
+   
+   - input: vector (*not* separate variables for each component)
+     
+     - output:  vector magnitude
+2) **`vecangle.m`** Write an m-file function that will find the angle between two input vectors. This function will call your `mag.m` function. 
+   
    - inputs
+     
      - Vector 1
      - Vector 2
+   
    - output
+     
      - The smaller (less than pi radians) angle between the two vectors
      - (must output radians)
 
-## submittal
-
-- [ ] Code for `mag.m`
-- [ ] Code for `vecangle.m`
+3) submit both files (mag.m and vecangle.m) and complete submission.md in this folder 
+   
+   - complete, save, push all new/changed files
+   
+   - create pull request 
+     
+     - base: feedback <- compare: main
+   
+   - add your instructor as a reviewer

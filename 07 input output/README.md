@@ -12,72 +12,31 @@ There is a file called vector.dat on the in the lesson folder. The file has 6 nu
 
 In this exercise you will write two m-files: one to import the data into Matlab’s workspace and one to export the data to a formatted output file. The algorithms are provided at the end of this file.
 
-## submittal
+# provided algorithms
 
-- [ ] `getposvel.m`
-  
-  - [ ] documented code
-  - [ ] test case results from `[posvec,velvec]=getposvel('vector.dat')`
-    (put expected and actual values in a comparison table)
-
-- [ ] `writevec.m`
-  
-  - [ ] documented code
-  - [ ] test case results from `writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')`
-    Where `posvec` is from `getposvel` test. You must use appropriately sized `%x.yf` formats for the numbers
-    (put expected and actual values in a comparison table)
-
-- [ ] test script
-
-- [ ] output file
-
-## test case results
-
-### getposvel.m
-
-| expected | actual |
-| -------- | ------ |
-|          |        |
-|          |        |
-|          |        |
-|          |        |
-|          |        |
-|          |        |
-
-### writevec.m
-
-expected: 
-`position vector 
--2693.3244i 6428.3838j 4491.3425k`
-
-actual: 
-`your results here`
-
-## provided algorithms
-
-### getposvel.m
+## getposvel
 
 This function will:
 
 - import the first 3 numbers into a column vector (3x1) 
 
 - import the last 3 numbers into a column vector (3x1) 
-  
-  #### test syntax
+
+### test syntax
 
 `[posvec,velvec]=getposvel('vector.dat')`
 
-#### inputs
+### inputs
 
 - filename – the name of the file with the input data
 
-#### outputs
+### outputs
 
 - vec1 – position vector (km)
 
 - vec2 – velocity vector (km/s)
 
-#### process
+### process
 
 Open the file: filename
 
@@ -87,9 +46,9 @@ Read vec2 from the input file, a (3x1) vector
 
 Close the input file
 
-End getposvel.m
+#### End of getposvel
 
-### writevec.m
+## writevec
 
 This function will:
 
@@ -99,11 +58,11 @@ This function will:
 
 - on the second line of the output file print each vector component with a label of the user’s choice  (depends on coordinate frame – e.g.  x,y,z or i,j,k, etc.)
 
-#### test syntax
+### test syntax
 
 `writevec('posdata.dat',posvec, 'position vector', 'i', 'j' ,'k')` 
 
-#### inputs
+### inputs
 
 - filename           - the output filename           
 
@@ -117,11 +76,11 @@ This function will:
 
 - comp3            - component 3 label
 
-#### outputs
+### outputs
 
 - No returned values but it does create an output file
 
-#### process
+### process
 
 Open an output file named: filename
 
@@ -138,4 +97,4 @@ position vector
 
 Close the output file
 
-End writevec.m
+#### End of writevec
