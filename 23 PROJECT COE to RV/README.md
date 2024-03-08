@@ -1,25 +1,5 @@
 # A201 Project—COE to RV
 
-## grading checklist
-
-- [ ] project complete
-
-All of the following are required in order to receive credit for completion. Your instructor will check off your completed sections and provide comments below or on the files you submit. Copy your work below this cover checklist.
-
-- [ ] algorithms: 1 for the main script; 1 for each sub-function
-  Could someone duplicate your program from this?
-- [ ] clear, concise, documented m-file code
-- [ ] correct answers for provided test cases in `RV2.dat`
-  Cases 3 & 4 will need to be modified in `RV2dat`to include 1 orbit TOF as in the previous project.
-  - [ ] Cases 1–4: Create a table of expected vs actual values for $\vec{R}_{ijk}$ and $\vec{V}_{ijk}$
-  - [ ] Case 5: Create a table of expected vs actual values for $\vec{R}_{pqw}$, $\vec{V}_{pqw}$, $\vec{R}_{ijk}$, and $\vec{V}_{ijk}$
-  - [ ] supporting hand calculations for case 5
-  - [ ] include the output file in your repository
-- [ ] additional sufficient test cases and comparison table
-  - [ ] need at least a rotation test about the 2nd axis to ensure it works, because it isn’t used by the main project
-  - [ ] Explain why you needed extra test cases or why you didn’t. 
-    Remember to test all cases of `coeupdate.m`
-
 ## authorized resources
 
  your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
@@ -77,6 +57,18 @@ graph TD;
     class wgs84data,COE_to_RV,ElOrb,coeupdate,RandV,axisrot Red;
 ```
 
+Your code for this project will be in the `23 PROJECT COE to RV` directory. In order to run functions from the project directory, include this line near the top of your code in `COE_to_RV.m`
+
+```matlab
+addpath ../projects/ ;
+```
+
+You also need to open `RV2.dat` from the `projects` directory. That command looks like this.
+
+```matlab
+fid = fopen('../projects/RV2.dat', 'rt'); 
+```
+
 ## additional requirements
 
 All subprograms listed above must be coded in MatLab.  
@@ -127,25 +119,7 @@ RIJK (km)  =   8840.0000 I    646.0000 J   5455.0000 K  Mag =  10407.6866
 VIJK (km/s)=     -0.6950 I      5.2500 J     -1.6500 K  Mag =      5.5469
 ```
 
-## test case results
-
-|     | expected | actual |
-| --- | -------- | ------ |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)
-
-## additional test cases
-
-Explain why you did or did not need additional test cases. If necessary, include a table of results. 
+# 
 
 ## required function information
 

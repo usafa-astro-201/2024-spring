@@ -1,27 +1,8 @@
 # A201 Project—COE Propagation
 
-## grading checklist
-
-- [ ] project complete
-
-All of the following are required in order to receive credit for completion. Your instructor will check off your completed sections and provide comments below or on the files you submit. Copy your work below this cover checklist.
-
-- [ ] algorithms: 1 for the main script; 1 for each sub-function
-  Could someone duplicate your program from this?
-- [ ] clear, concise, documented m-file code
-- [ ] correct answers for provided test cases in `RV2.dat`
-  Cases 3 & 4 will need to be modified in `RV2.dat`to include 1 orbit TOF
-  - [ ] Create a table of expected vs actual 
-    (just true anomaly since it is the only new output)
-  - [ ] supporting hand calculations 
-  - [ ] include the output file in your repository
-- [ ] additional test cases and comparison table
-  Explain why you needed extra test cases or why you didn’t. 
-  Remember to test all cases of `coeupdate.m`
-
 ## authorized resources
 
- your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
+your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
 ## objective
 
@@ -86,6 +67,18 @@ graph TD;
     class wgs84data,COE_propagation,ElOrb,coeupdate,newton Red;
 ```
 
+Your code for this project will be in the `21 PROJECT COE Propagation` directory. In order to run functions from the project directory, include this line near the top of your code in `COE_propagation.m`
+
+```matlab
+addpath ../projects/ ;
+```
+
+You also need to open `RV2.dat` from the `projects` directory. That command looks like this.
+
+```matlab
+fid = fopen('../projects/RV2.dat', 'rt'); 
+```
+
 ## additional requirements
 
 All subprograms listed above must be coded in MatLab.  
@@ -134,26 +127,6 @@ Future True Anomaly (deg) =    214.8548
 ## hints
 
 You can use RV_to_COE to validate most of your numbers, but you will need to validate the future true anomaly for each case another way. (The future true anomalies for most cases are very easy to determine.) 
-
-## test case results
-
-|     | expected | actual |
-| --- | -------- | ------ |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)
-
-## additional test cases
-
-Explain why you did or did not need additional test cases. If necessary, include a table of results. 
 
 ## required function information
 

@@ -24,7 +24,7 @@ All of the following are required in order to receive credit for completion. You
 
 ## authorized resources
 
- your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
+your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
 ## objective
 
@@ -91,25 +91,7 @@ If rplot produces a straight line or no line:
 
 If rplot gives long line curving away from the Earth, the two-body equation in the Interpreted Matlab function may be missing a negative sign
 
-## test case results
-
-|     | expected | actual |
-| --- | -------- | ------ |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-|     |          |        |
-
-## hand calculations
-
-(crop appropriately)
-
-![](../sources/hand_calc_example.jpg)
-
-## additional test cases
-
-Explain why you did or did not need additional test cases. If necessary, include a table of results. 
+# 
 
 ## function information
 

@@ -2,7 +2,7 @@
 
 ## authorized resources
 
- your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
+your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
 ## background
 
@@ -23,31 +23,18 @@ clearvars; clc;
 load('simulink_output.mat'); 
 ```
 
-Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image and include in `readme.md`.
+Create 3 plots of output (y-axis) vs time (x-axis). Save each plot as an image and include in `submission.md`.
 
 1. simulink scope output
    - export to figure
-   - save figure as svg and include in `readme.md`
+   - save figure as svg and include in `submission.md`
 2. scripted matlab plot
-   - `   plot(xaxisvariable,yaxisvariable)`
-   - save and submit your script file
-   - save figure as svg and include in `readme.md`
+   - `plot(xaxisvariable,yaxisvariable)`
+   - use your script to save figure as svg 
+     - `saveas(gcf, 'filename.svg')`
+   - include in `submission.md`
 3. excel plot
    - copy data from workspace variable to excel
    - plot it
    - save a screenshot with `win`-`shift`-`S`
-   - paste the screenshot into `readme.md` in marktext
-
-## submittal
-
-- [ ] simulink model `export_project.slx`
-- [ ] matlab data file `simulink_output.mat`
-- [ ] matlab script file
-- [ ] 3 plots
-  - [ ] simulink scope
-  - [ ] matlab plot
-  - [ ] excel screenshot
-
-## figures
-
-use this syntax to add your image: `![]()`
+   - paste the screenshot into `submission.md` in marktext

@@ -10,7 +10,7 @@ We discussed the Newton’s method for iteration. We use this method to converge
 
 The method used for converging on a solution in AstroEngr 310 may not always converge in a reasonable number of iterations for all cases. Newton’s method uses knowledge of the relationship between eccentric anomaly and mean anomaly to make better guesses. It therefore results in convergence in fewer iterations.
 
-Your exercise is to write an algorithm and function that computes future eccentric anomaly (E­f) using Newton’s method and a given eccentricity (e) and future mean anomaly (Mf). Use a convergence criteria of $|E_{n+1}-E_n| < 1\times10^{-8} $.
+Your exercise is to write an algorithm and function that uses Newton's method to compute eccentric anomaly (E­) given eccentricity (e) and mean anomaly (M). Use a convergence criteria of $|E_{n+1}-E_n| < 1\times10^{-8} $.
 
 ## tasks
 
@@ -27,26 +27,3 @@ Your exercise is to write an algorithm and function that computes future eccentr
    - outputs: eccentric anomaly (radians)
    
    - format of the function line: `[Ef] = newton(ecc,Mf)`
-
-## submittal
-
-- [ ] algorithm
-- [ ] `newton.m` documented code
-- [ ] `test.m` test script
-- [ ] test case results
-- [ ] hand calculations
-
-## algorithm
-
-## test case results
-
-| ecc | Mf  | Ef  |
-| --- | --- | --- |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-|     |     |     |
-
-## hand calculations
-
-![](../sources/hand_calc_example.jpg)

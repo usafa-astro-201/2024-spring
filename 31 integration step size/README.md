@@ -2,7 +2,7 @@
 
 ## authorized resources
 
- your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
+your instructor, your course notes, course materials and other cadets (but do not copy any of another cadet’s work)
 
 ## background
 
@@ -39,35 +39,3 @@ $$
 
 $r=6378.137 \text{ km}$ 
 $\mu=398600.5 \ \mathrm{km^3 s^{-2}}$
-
-## submittal
-
-- [ ] simulink model `numerical_integration.slx`
-- [ ] screenshot of simulink model
-- [ ] table of step sizes vs Y values
-- [ ] truth value
-- [ ] hand calculations 
-- [ ] matlab script file(s)
-- [ ] plot of step size vs Y values (with logarithmic x-axis)
-
-## results
-
-### step size
-
-| step size | y value |
-| --------- | ------- |
-|           |         |
-|           |         |
-|           |         |
-
-### truth value
-
-(include at least 6 digits right of the decimal)
-
-## figures
-
-use this syntax to add your image: `![]()`
-
-### model output
-
-### simulink model screenshot
