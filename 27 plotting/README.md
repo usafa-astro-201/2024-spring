@@ -10,12 +10,14 @@ In this exercise you will practice some of the plotting commands. Try to accompl
 
 ## tasks
 
-1. In Matlab, create the following variables by opening and running `create_data.m`. 
+1. In Matlab, create and save variables for this exercise by opening and running `create_data.m`. Running these commands will save the variables `t`, `x`, and `y` to the matlab data file `data.mat`. You will load a fresh copy of those the variables every time you run your script by including the command `load('data.mat')` in your script.
    
    ```matlab
    t = 0:pi/50:10*pi
    x = sin(t)
    y = cos(t)
+   
+   save('data.mat')
    ```
 2) Edit `plot_data.m` for this exercise. Clear workspace variables and load t, x, and y from the matlab data file `data.mat`. (This step is already in `plot_data.mat`.)
 
@@ -26,7 +28,5 @@ In this exercise you will practice some of the plotting commands. Try to accompl
 5) In the first plot keep the original plot and plot on top of it, t vs. x. (i.e. t is on the horizontal axis)
 
 6) Save both figures and insert them into your readme document. 
-
-
 
 # 
