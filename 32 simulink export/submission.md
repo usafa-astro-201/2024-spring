@@ -2,11 +2,10 @@
 
 ## documentation statement
 
-
-
 ## checklist
 
 - [ ] simulink model `export_project.slx`
+- [ ] screenshot of simulink model
 - [ ] matlab data file `simulink_output.mat`
 - [ ] matlab script file
 - [ ] 3 plots
